@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:700|Roboto:900|Russo+One");
+
+
+.text {
+  margin-left: -30px;
+  text-align: center;
+
+}
+
+p {
+  width: 45px;
+  display: inline-block;
+  font-size: 0px;
+  font-family: "Russo One";
+  font-weight: 900;
+}
+
+p:nth-child(1) {
+  text-shadow: 10px 10px #fff;
+  color: #aaeedd;
+  animation: showup 5s infinite 0.2s;
+}
+
+p:nth-child(2) {
+  text-shadow: 10px 10px #fff;
+  color: #aaddee;
+  animation: showup 5s infinite 0.4s;
+}
+
+p:nth-child(3) {
+  text-shadow: 10px 10px #fff;
+  color: #aabbee;
+  animation: showup 5s infinite 0.6s;
+}
+
+p:nth-child(4) {
+  text-shadow: 10px 10px #fff;
+  color: #bbaaee;
+  animation: showup 5s infinite 0.8s;
+}
+
+p:nth-child(5) {
+  text-shadow: 10px 10px #fff;
+  color: #ddaaee;
+  animation: showup 5s infinite 1s;
+}
+
+p:nth-child(6) {
+  text-shadow: 10px 10px #fff;
+  color: #eeaadd;
+  animation: showup 5s infinite 1.2s;
+}
+
+p:nth-child(7) {
+  text-shadow: 10px 10px #fff;
+  color: #eeaabb;
+  animation: showup 5s infinite 1.4s;
+}
+
+p:nth-child(8) {
+  text-shadow: 10px 10px #fff;
+  color: #eebbaa;
+  animation: showup 5s infinite 1.6s;
+}
+
+p:nth-child(9) {
+ text-shadow: 10px 10px #fff;
+ color: #bbaaee;
+  animation: showup 5s infinite 1.8s;
+}
+p:nth-child(10) {
+  text-shadow: 10px 10px #fff;
+  color: #eeddaa;
+  animation: showup 5s infinite 2.0s;
+}
+p:nth-child(11) {
+  text-shadow: 10px 10px #fff;
+  color: #eeddaa;
+  animation: showup 5s infinite 2.2s;
+}
+
+p:nth-child(12) {
+  text-shadow: 10px 10px #fff;
+  color: #bbaaee;
+  animation: showup 5s infinite 2.4s;
+}
+p:nth-child(13) {
+  text-shadow: 10px 10px #fff;
+  color: #eeddaa;
+  animation: showup 5s infinite 2.6s;
+}
+p:nth-child(14) {
+  text-shadow: 10px 10px #fff;
+  color: #eeddaa;
+  animation: showup 5s infinite 2.8s;
+}
+p:nth-child(15) {
+  text-shadow: 10px 10px #fff;
+  color: #eeddaa;
+  animation: showup 5s infinite 3s;
+}
+@keyframes showup {
+  0% {
+    font-size: 0px;
+    transform: rotate(90deg);
+  }
+  5% {
+    font-size: 60px;
+  }
+  10% {
+    font-size: 66px;
+    transform: rotate(0deg);
+  }
+  60% {
+    font-size: 66px;
+    opacity: 1;
+  }
+  71% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    font-size: 66px;
+    transform: rotate(0deg);
+  }
+}
