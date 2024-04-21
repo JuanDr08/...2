@@ -1,6 +1,4 @@
 /* BY ENCODEDMABEL */
-document.querySelector(".container").style.display="none";
-document.querySelector(".text").style.display="none";
 var w = c.width = window.innerWidth,
 		h = c.height = window.innerHeight,
 		ctx = c.getContext( '2d' ),
